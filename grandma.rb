@@ -12,12 +12,12 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma (speak = "")
-  if speak == ""
+def speak_to_grandma (speak)
+  if speak == speak.uppercase
     puts "HUH?! SPEAK UP, SONNY!"
   else
     puts "false response"
   end
 end
 
-speak_to_grandma
+speak_to_grandma("HELLO")
