@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma (*speak)
-  if speak = nil
+  if speak == nil
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
