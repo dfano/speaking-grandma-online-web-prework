@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma (speak)
-  if speak == speak.uppercase
+  if speak == speak.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   else
     puts "false response"
