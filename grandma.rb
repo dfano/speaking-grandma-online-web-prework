@@ -18,6 +18,7 @@ def speak_to_grandma (speak)
   else
     puts "false response"
   end
+  puts speak
 end
 
 speak_to_grandma("HELLO")
