@@ -23,4 +23,4 @@ def speak_to_grandma (speak)
   puts "I wrote in: #{speak}"
 end
 
-speak_to_grandma("I LOVE YOU GRANDMA!")
+speak_to_grandma("hello")
