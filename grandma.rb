@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma (speak = "")
-  if speak == 1
+  if speak == nill
     puts "HUH?! SPEAK UP, SONNY!"
   else
     puts "false response"
