@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma (*speak)
-  if !speak
+  if speak == 1
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
 
-speak_to_grandma()
+speak_to_grandma(1)
