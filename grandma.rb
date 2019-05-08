@@ -20,7 +20,7 @@ def speak_to_grandma (speak)
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
-  puts "I wrote in: #{speak}"
+  # puts "I wrote in: #{speak}"
 end
 
 speak_to_grandma("HELLO")
