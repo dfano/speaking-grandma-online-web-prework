@@ -15,6 +15,8 @@
 def speak_to_grandma (*speak)
   if speak == 1
     puts "HUH?! SPEAK UP, SONNY!"
+  else
+    puts "false response"
   end
 end
 
