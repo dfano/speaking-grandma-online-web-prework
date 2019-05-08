@@ -21,4 +21,4 @@ def speak_to_grandma (speak)
   puts speak
 end
 
-speak_to_grandma("HELLO")
+speak_to_grandma("hello")
